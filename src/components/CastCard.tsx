@@ -46,6 +46,9 @@ const GridContainer = styled.div`
   gap: 1.5em;
   text-align: center;
   font-size: 1.3em;
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 10px;
   @media (min-width: 960px) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -56,7 +59,7 @@ const GridContainer = styled.div`
 
 const CastConatiner = styled.div`
   border-radius: 5px;
-  background-color: #c9ebf2;
+  background-color: #f2d5c4;
   padding: 1em 0;
   h2 {
     margin-bottom: 1em;
@@ -64,13 +67,15 @@ const CastConatiner = styled.div`
 `;
 
 const LinkContainer = styled.a`
-  background-color: #a0c9d9;
+  background-color: #fff;
   padding: 0.5em;
   border-radius: 5px;
   margin: 1em auto 0;
   display: block;
-  width: 30%;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 40%;
   &:hover {
-    background-color: #73a2bf;
+    background-color: #f2b279;
   }
 `;
