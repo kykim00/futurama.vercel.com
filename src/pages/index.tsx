@@ -13,9 +13,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Futurama - the Animation</h1>
         <p>This website contains information about Futurama.</p>
-        <p>For more information, Please click on the picture below</p>
+        <p>
+          For more information, Please click the menu bar above or the image
+          below
+        </p>
         <a href="./info">
           <ImageContainer src={MAIN_IMAGE_URL}></ImageContainer>
         </a>
@@ -28,9 +30,14 @@ const MainContainer = styled.div`
   width: 100%;
   height: 100vh;
   text-align: center;
+  padding: 1em;
+  p {
+    font-size: 1.3em;
+  }
 `;
 
 const ImageContainer = styled.img`
+  margin-top: 1em;
   width: 100%;
   object-fit: contain;
 `;
