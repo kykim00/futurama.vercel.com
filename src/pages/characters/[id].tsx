@@ -41,14 +41,6 @@ const CharacterDetailPage: NextPage = () => {
   );
 };
 
-// //   gender: string;
-//   species: string;
-//   homePlanet: string;
-//   occupation: string;
-//   sayings: [string];
-//   id: number;
-//   age: string;
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -94,5 +86,8 @@ const ButtonContainer = styled.div`
   top: 1em;
   right: 1em;
   font-weight: bold;
+  &:hover {
+    background-color: #f2b279;
+  }
 `;
 export default CharacterDetailPage;
